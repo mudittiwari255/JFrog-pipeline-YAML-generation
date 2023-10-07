@@ -1,0 +1,1 @@
+JFROG Pipeline's YAML generation.
