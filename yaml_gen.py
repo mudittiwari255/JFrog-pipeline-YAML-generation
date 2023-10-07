@@ -8,7 +8,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationSummaryMemory
 from templates import template_context
 
-openai_keys = "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"
+openai_keys = "OPEN AI API KEY GOES HERE"
+
+print(os.environ["OPENAI_API_KEY"])
+
 if "OPENAI_API_KEY" not in os.environ:
     os.environ["OPENAI_API_KEY"] = openai_keys
 
